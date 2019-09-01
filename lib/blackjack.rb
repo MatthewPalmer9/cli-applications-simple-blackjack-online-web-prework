@@ -57,3 +57,12 @@ end
 # get every test to pass before coding runner below #
 #####################################################
 
+def runner
+  welcome 
+  totalScore = initial_round
+  until totalScore > 21
+    totalScore = hit?(totalScore)
+  end
+  end_game(totalScore)
+end
+runner
