@@ -16,7 +16,7 @@ def prompt_user
 end
 
 def get_user_input
-  answer = gets.to_i
+  answer = gets
   answer
 end
 
